@@ -1,0 +1,44 @@
+2020-10-16 12:01:06.424 [main] INFO  com.cn.otou.OtouApplication - Starting OtouApplication on tyxw with PID 7200 (F:\eclipse2019\workspace\otou\target\classes started by Administrator in F:\eclipse2019\workspace\otou)
+2020-10-16 12:01:06.473 [main] INFO  com.cn.otou.OtouApplication - No active profile set, falling back to default profiles: default
+2020-10-16 12:01:09.204 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2020-10-16 12:01:09.234 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2020-10-16 12:01:09.254 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 12:01:09.254 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 12:01:09.568 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 12:01:09.571 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2966 ms
+2020-10-16 12:01:10.706 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:01:11.152 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2020-10-16 12:01:11.202 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2020-10-16 12:01:11.209 [main] INFO  com.cn.otou.OtouApplication - Started OtouApplication in 13.446 seconds (JVM running for 15.069)
+2020-10-16 12:44:55.118 [main] INFO  com.cn.otou.OtouApplication - Starting OtouApplication on tyxw with PID 9448 (F:\eclipse2019\workspace\otou\target\classes started by Administrator in F:\eclipse2019\workspace\otou)
+2020-10-16 12:44:55.489 [main] INFO  com.cn.otou.OtouApplication - No active profile set, falling back to default profiles: default
+2020-10-16 12:44:59.363 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2020-10-16 12:44:59.429 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2020-10-16 12:44:59.466 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 12:44:59.467 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 12:44:59.787 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-16 12:44:59.787 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4196 ms
+2020-10-16 12:45:00.872 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:45:01.089 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2020-10-16 12:45:01.304 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2020-10-16 12:45:01.357 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2020-10-16 12:45:01.361 [main] INFO  com.cn.otou.OtouApplication - Started OtouApplication in 9.374 seconds (JVM running for 11.305)
+2020-10-16 12:47:54.998 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 12:47:55.003 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 12:47:55.023 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-10-16 12:53:26.734 [main] INFO  com.cn.otou.OtouApplication - Starting OtouApplication on tyxw with PID 6548 (F:\eclipse2019\workspace\otou\target\classes started by Administrator in F:\eclipse2019\workspace\otou)
+2020-10-16 12:53:27.327 [main] INFO  com.cn.otou.OtouApplication - No active profile set, falling back to default profiles: default
+2020-10-16 12:53:31.309 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2020-10-16 12:53:31.344 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2020-10-16 12:53:31.362 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-16 12:53:31.362 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 12:53:31.537 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/otou] - Initializing Spring embedded WebApplicationContext
+2020-10-16 12:53:31.537 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4115 ms
+2020-10-16 12:53:32.077 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 12:53:32.222 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: ServletContext resource [/index.html]
+2020-10-16 12:53:32.374 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2020-10-16 12:53:32.411 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path '/otou'
+2020-10-16 12:53:32.415 [main] INFO  com.cn.otou.OtouApplication - Started OtouApplication in 8.506 seconds (JVM running for 10.173)
+2020-10-16 12:53:52.951 [http-nio-8088-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/otou] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 12:53:52.951 [http-nio-8088-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-16 12:53:52.969 [http-nio-8088-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms

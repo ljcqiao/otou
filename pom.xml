@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cn.otou</groupId>
+  <artifactId>otou</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>自动检测平台</name>
+  <description>java项目自动化运维</description>
+  <packaging>jar</packaging>
+  <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.17.RELEASE</version>
+  </parent>
+  
+  
+  <dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+	</dependencies>
+
+	<!-- Package as an executable jar -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<!-- 指定该jar包启动时的主类[建议] -->
+					<mainClass>com.taiyang.tyccs.TyccsApplication</mainClass>
+					<!-- 打成war包需去除 <layout>ZIP</layout> 配置-->
+					<layout>ZIP</layout>
+					<includes>
+						<!-- 排除第三方依赖jar(只保留本项目的jar) -->
+						<include>
+							<groupId>${project.groupId}</groupId>
+							<artifactId>${project.artifactId}</artifactId>
+						</include>
+					</includes>
+				</configuration>
+			</plugin>
+			<!-- 把项目依赖的第三方包打包在target/lib下 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+							<excludeTransitive>false</excludeTransitive>
+							<stripVersion>false</stripVersion>
+							<includeScope>runtime</includeScope>
+							<!-- 排除基础框架(已经打包入项目包) 
+							<excludeArtifactIds>guns-base,guns-vip-gen</excludeArtifactIds>-->
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+  
+</project>

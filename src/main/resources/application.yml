@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /otou
+#打印横幅banner
+spring:
+  main:
+    banner-mode: "CONSOLE"
+#log
+#logging:
+#  level:
+#    root:
+#      "debug"
+logging:
+  config: classpath:logback.xml
